@@ -14,6 +14,25 @@
         <title>Group Dummies | Learn!</title>
     </head>
     <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Group Dummies</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Progress</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Group Lead</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Group Members</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
         <header class="header">
             <div class="header__logo-box">
                 <img src="./img/logo-white.png" alt="Logo" class="header__logo">
@@ -23,13 +42,13 @@
                     <span class="heading-primary--main">Group Dummies</span>
                     <span class="heading-primary--sub">Be smarter every day</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Check our Progress</a>
+                <a href="#progress" class="btn btn--white btn--animated">Check our Progress</a>
             </div>
             
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about" id="progress">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Words BlaBlaBlaBlaBla</h2>
                 </div>
@@ -45,7 +64,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         </p>
 
-                        <a href="#" class="btn-text">Check our paper! &rarr;</a>
+                        <a href="#papers" class="btn-text">Check our paper! &rarr;</a>
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
@@ -57,7 +76,7 @@
                 </div>
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="papers">
 
                 <div class="row">
                     <div class="col-1-of-4">
@@ -99,7 +118,39 @@
                 </div>
             </section>
 
-            <section class="section-member">
+            <section class="section-lead" id="leader">
+                <!-- <div class="bg-video">
+                    <video class="bt-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>    
+                </div> -->
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Group Lead</h2>
+                </div>
+                <div class="row">
+                    <div class="lead">
+                        <figure class="lead__shape">
+                            <img  class="lead__img" src="/img/nat-8.jpg" alt="group-leader">
+                            <figcaption class="lead__caption">
+                                John Legend
+                            </figcaption>
+                        </figure>
+                        <div class="lead__text">
+                            <h3 class="heading-tertiary">
+                                texttexttexttexttext
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur rit obcaecati optio error et dicta, voluptates veniam.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="section-member" id="members">
+                
                 <div class="u-center-text ">
                     <h2 class="heading-secondary u-margin-bottom-big">Group Member</h2>
 
@@ -192,26 +243,7 @@
                 </div>
             </section>
 
-            <section class="section-lead">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">Group Lead</h2>
-                </div>
-                <div class="row">
-                    <div class="lead">
-                        <figure class="lead__shape">
-
-                        </figure>
-                        <div class="lead__text">
-                            <h3 class="heading-tertiary">
-                                texttexttexttexttext
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet consectetur rit obcaecati optio error et dicta, voluptates veniam.</p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
+            
 
         </main>
 
