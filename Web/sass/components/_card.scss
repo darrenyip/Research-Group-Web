@@ -5,7 +5,6 @@
     height: 60rem; 
 
     &__side{
-        color: #fff;
         height: 60rem; 
         transition: all 0.5s ease;
         position: absolute;
@@ -20,11 +19,11 @@
         }
 
         &--back{
-            background-color: red;
+            background-color: green;
             transform: rotateY(-180deg);
 
             &-1{
-                background-image: linear-gradient(to right bottom,$color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom,$color-white, $color-white);
             }
             &-2{
 
@@ -46,6 +45,7 @@
     &__picture{
         background-size: cover;
         height: 28rem;
+
         &--1{
             background-image: url(../../img/nat-5.jpg);
         }
@@ -56,8 +56,62 @@
             background-image: url(../../img/nat-5.jpg);
         }
     }
+    
+    &__heading{
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $color-black;
+        margin-top: 2rem;
+        
+    }
+    &__details{
+        &--description{
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    &__papers{
+        margin-top: 3.5rem;
+        text-align: center;
+
+
+        & ul{
+            width: 89%;
+            list-style-type: none;
+            margin: auto;
+            & li{
+                font-family:Georgia,serif,Times; 
+                font-size:18px; 
+                margin-bottom: 2rem;
+            }
+            & a{
+                display:block; 
+                width:300px; 
+                height:28px;
+                background-color:#333; 
+                border-left:5px solid #222;
+                border-right:5px solid #222;
+                padding-left:10px;
+                text-decoration:none;
+                color:#bfe1f1;
+                text-decoration: none;
+                border-radius: 3rem;
+
+                &:hover{
+                    -moz-transform:rotate(-5deg); 
+                    -moz-box-shadow:10px 10px 20px $color-black;
+                    -webkit-transform:rotate(-5deg); 
+                    -webkit-box-shadow:10px 10px 20px $color-black;
+                    transform:rotate(-5deg); 
+                    box-shadow:10px 10px 20px $color-black;
+                }
+            }
+        }
+
+        
+    }
+
 
 }
-
-    
-    
