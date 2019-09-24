@@ -13,20 +13,20 @@ body{
     color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     &--main{
         display: block;
-        font-size: 60px;
-        font-weight: 700;
-        letter-spacing: 30px;
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: 1rem;
         animation: moveInLeft 1.4s ease-out;
     
     }
     &--sub{
         display: block;
-        font-size: 30px;
+        font-size: 3rem;
         font-weight: 400;
-        letter-spacing: 26px;
+        letter-spacing: 2.6rem;
         animation: moveInRight 1.4s ease-out;
     }
 }
@@ -39,24 +39,43 @@ body{
     background-image: linear-gradient(to right,$color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color:transparent;
+    letter-spacing: 0.2rem;
+
     transition: all .2s;
-    letter-spacing: 2px;
-
     &:hover{
-        transform: skewX(15deg) scale(1.1);
+        transform: scale(1.1);
         text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
-
     }
 }
 
 .heading-tertiary{
-    font-size: $default-font-size;
+    font-size: 2.5rem;;
     font-weight: 700;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    color: $color-black;
+    text-align: right;
+    &--1{
+        font-size: 2rem;
+        text-align: right;
+    }
+    &--email{
+        font-size: 1.5rem;
+    }
+    &--text{
+        font-size: 0.5rem;
+    }
 }
 .paragraph{
     font-size: $default-font-size;
     &:not(last-child){
         margin-bottom: 3rem;
+    }
+}
+
+.research__link{
+    color: $color-black;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
     }
 }

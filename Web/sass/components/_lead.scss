@@ -11,8 +11,8 @@
     transform: skewX(-12deg);
 
     &__shape {
-        width: 15rem;
-        height: 15rem;
+        width: 20rem;
+        height: 20rem;
         float: left;
         background-color: orangered;
         -webkit-shape-outside: circle(50% at 50% 50%);

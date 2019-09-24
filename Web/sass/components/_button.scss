@@ -54,10 +54,11 @@
 
 
 .btn-text{
+    margin-bottom: 2rem;
     &:link,
     &:visited{
         font-size: $default-font-size;
-        color:$color-primary;
+        color:$color-primary-dark;
         display: inline-block;
         text-decoration: none;
         border-bottom: 1px solid $color-primary;
