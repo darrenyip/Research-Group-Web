@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap" rel="stylesheet"> 
-
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="sass/main.css">
+        <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="css/icon_styles.css">
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
@@ -24,10 +24,12 @@
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span> About ES Group</a></li>
-                    <li class="navigation__item"><a href="#research" class="navigation__link"><span>02</span> Research</a></li>
-                    <li class="navigation__item"><a href="publications.html" class="navigation__link"><span>03</span> publications</a></li>
-                    <li class="navigation__item"><a href="#member" class="navigation__link"><span>04</span> Group Member</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About ES Group</a></li>
+                    <li class="navigation__item"><a href="#progress" class="navigation__link"><span>02</span> Research</a></li>
+                    <li class="navigation__item"><a href="#lead" class="navigation__link"><span>03</span> publications</a></li>
+                    <li class="navigation__item"><a href="#lead" class="navigation__link"><span>04</span> Group Lead</a></li>
+                    
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span> Group Members</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,13 +45,13 @@
                     <span class="heading-primary--main u-margin-top-medium">Environmental Sustainability Research Group</span>
                     <span class="heading-primary--sub">Be smarter every day</span>
                 </h1>
-                <a href="#about" class="btn btn--white btn--animated">what do we do?</a>
+                <a href="#progress" class="btn btn--white btn--animated">what do we do?</a>
             </div>
             
         </header>
 
         <main>
-            <section class="section-about" id="about">
+            <section class="section-about" id="progress">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">About ES Group</h2>
                 </div>
@@ -95,7 +97,7 @@
                         </div>
                     </div>
                     <div class="col-1-of-3">
-                        <div class="feature-box" style="padding-bottom: 6.7rem;">
+                        <div class="feature-box">
                             <i class="feature-box__icon icon-basic-paperplane"></i>
                             <br>
                             <a href="research.html" class="heading-tertiary u-margin-bottom-medium research__link">Nutrient Management</a>
@@ -128,7 +130,7 @@
 
             </section> -->
 
-            <section class="section-member" id="member">
+            <section class="section-member" id="members">
                 
                 <div class="u-center-text ">
                     <h2 class="heading-secondary u-margin-bottom-big">Group Member</h2>
@@ -158,7 +160,6 @@
                                             1 University Place
                                             
                                             Rensselaer, NY 12144  </p>
-                                    <a href="#popup" class="btn lead__popup--btn u-margin-top-medium">More info</a>
                                 </div>
                             </div>
         
@@ -259,7 +260,11 @@
             
 
         </main>
-        
+        <!-- <div class="popup">
+            <div class="popup__content">
+                POPUP
+            </div>
+        </div> -->
         <footer class="footer">
             <div class="footer__logo-box">
                 <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
@@ -275,26 +280,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-1-of-2">
-                        <p class="footer__copyright">Build by Zhangyu Ye for SE Group, great thanks to my memtor JONAS SCHMEDTMANN and his design for the website</p>
-                    </div>
+                    <div class="col-1-of-2"></div>
                 </div>
             </div>
         </footer>
-        <div class="popup" id="popup">
-            <div class="popup__content">
-                <div class="popup__left">
-                    <img src="img/nat-8.jpg" alt="" class="popup__img">
-                </div>
-                <div class="popup__right" >
-                    <a href="#members" class="popup__close">&times;</a>
-                    <h2 class="heading__secondary">Detail</h2>
-                    <h3 class="heading__tertiary">More Detail &ndash; more and more</h3>
-                    <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit, soluta dicta mollitia.</p>
-                    <a href="" class="btn btn--green">Portfolio</a>
-                </div>
-            </div>
-        </div>
         <!-- GRID Example -->
         <!--
         <section class="grid-test">

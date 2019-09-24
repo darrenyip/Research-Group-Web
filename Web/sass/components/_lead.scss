@@ -63,5 +63,15 @@
         filter: blur(3px) brightness(80%) ;
     }
 
+    &__popup{
+        &--btn{
+            background-color: $color-primary;
+            color: $color-white;
+            &::after {
+            background-color: $color-primary;
+            }
+        }
+    }
+
 
 }

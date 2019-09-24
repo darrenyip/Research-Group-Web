@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="sass/main.css">
         <link rel="stylesheet" href="css/icon_styles.css">
         <link rel="stylesheet" href="css/icon-font.css">
@@ -14,67 +14,85 @@
         <title>Environmental Sustainability Research Group | Research</title>
     </head>
     <body>
-        <div class="navigation">
+        <div class="research__menu">
+            <ul>
+                <li class="item"><a href="index.html#member">Members</a></li>
+                <li class="item"><a href="publications.html">Publications</a></li>
+                <li class="item"><a href="research.html">Researches</a></li>
+                <li class="item"><a href="index.html" >About</a></li>
+                
+            </ul>
+        </div>
+
+        <!-- <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-        
+                
             <label for="navi-toggle" class="navigation__button">
                 <span class="navigation__icon">&nbsp;</span>
             </label>
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Group Dummies</a></li>
-                    <li class="navigation__item"><a href="#progress" class="navigation__link"><span>02</span> Research</a></li>
-                    <li class="navigation__item"><a href="#lead" class="navigation__link"><span>03</span> Group Lead</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Group Members</a></li>
+                    <li class="navigation__item"><a href="#about" class="navigation__link navigation__link--toggle"><span>01</span> About ES Group</a></li>
+                    <li class="navigation__item"><a href="#research" class="navigation__link navigation__link--toggle"><span>02</span> Research</a></li>
+                    <li class="navigation__item"><a href="publications.html" class="navigation__link navigation__link--toggle"><span>03</span> publications</a></li>
+                    <li class="navigation__item"><a href="#member" class="navigation__link navigation__link--toggle"><span>04</span> Group Member</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
 
         <main>
-                <section class="section-features" id="research">
-
-                        <div class="row">
-                            <div class="col-1-of-4">
-                                <div class="feature-box">
-                                    <i class="feature-box__icon icon-basic-world"></i>
-                                    <h3 class="heading-tertiary u-margin-bottom-small">research 1</h3>
-                                    <p class="feature-box__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae adipisci voluptate ullam eos eoipsa.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-1-of-4">
-                                <div class="feature-box">
-                                    <i class="feature-box__icon icon-basic-sheet-txt"></i>
-                                    <h3 class="heading-tertiary u-margin-bottom-small">research 2</h3>
-                                    <p class="feature-box__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae adipisci voluptate ullam eos eoipsa.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-1-of-4">
-                                <div class="feature-box">
-                                    <i class="feature-box__icon icon-basic-paperplane"></i>
-                                    <h3 class="heading-tertiary u-margin-bottom-small">research 3</h3>
-                                    <p class="feature-box__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae adipisci voluptate ullam eos eoipsa.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-1-of-4">
-                                <div class="feature-box">
-                                    <i class="feature-box__icon icon-basic-heart"></i>
-                                    <h3 class="heading-tertiary u-margin-bottom-small">research 4</h3>
-                                    <p class="feature-box__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae adipisci voluptate ullam eos eoipsa.
-                                    </p>
-                                </div>
-                            </div>
+            <section class="section-research">
+                
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <br>
+                            <a onclick="toggleContent('content-1')" href="#" class="heading-tertiary u-margin-bottom-medium research__link">Sustainable and Resilient Water Infrastructure</a>
+      
                         </div>
-                    </section>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-sheet-txt"></i>
+                            <br>
+                            <a onclick="toggleContent('content-2')" href="#" class="heading-tertiary u-margin-bottom-medium research__link">Biofuel/Food Supply Chains</a>    
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="feature-box" style="padding-bottom: 6.7rem;">
+                            <i class="feature-box__icon icon-basic-paperplane"></i>
+                            <br>
+                            <a onclick="toggleContent('content-3')" href="#" class="heading-tertiary u-margin-bottom-medium research__link">Nutrient Management</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <div class="section-content">
+                <div class="click2select" id="click2select">
+                    <h2>&#8613;&#8613;&#8613;</h2>
+                    <h2 class="text">Click on the individual research to get more info</h2>
+                </div>
+                <div class="content" id="content-1">
+                    <h3 class="content__title">Title 1</h3>
+                        <img src="" alt="" class="content__img">
+                    <p class="content__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ut vero animi eos veritatis, soluta, officiis, commodi neque odit veniam debitis pariatur eum tenetur velit voluptatum aspernatur cumque? Eaque, porro!</p>
+                </div>
+                <div class="content" id="content-2">
+                    <h3 class="content__title">Title 2</h3>
+                    <img src="" alt="" class="content__img">
+                    <p class="content__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ut vero animi eos veritatis, soluta, officiis, commodi neque odit veniam debitis pariatur eum tenetur velit voluptatum aspernatur cumque? Eaque, porro!</p>
+                </div>
+                <div class="content" id="content-3">
+                    <h3 class="content__title">Title 3</h3>
+                    <img src="" alt="" class="content__img">
+                    <p class="content__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ut vero animi eos veritatis, soluta, officiis, commodi neque odit veniam debitis pariatur eum tenetur velit voluptatum aspernatur cumque? Eaque, porro!</p>
+                </div>
+            </div>            
         </main>
     
     </body>
+    <script src="js/script.js"></script>
 </html>
