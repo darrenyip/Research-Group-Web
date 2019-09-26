@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="sass/main.css">
+        <link rel="stylesheet" href="css/icon-font.css">
+
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <script> function closeNav(){document.getElementById("navi-toggle").checked=false;}</script>
+        <title>Environmental Sustainability Research Group</title>
+    </head>
+
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link" onclick="closeNav()"><span>01</span> About ES Group</a></li>
+                    <li class="navigation__item"><a href="#research" class="navigation__link" onclick="closeNav()"><span>02</span> Research</a></li>
+                    <li class="navigation__item"><a href="publications.html" class="navigation__link" onclick="closeNav()"><span>03</span> publications</a></li>
+                    <li class="navigation__item"><a href="#member" class="navigation__link" onclick="closeNav()"><span>04</span> Group Member</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Environmental Sustainability Research Group</span>
+                    <span class="heading-primary--sub">University at Albany</span>
+                </h1>
+
+                <!-- <a href="#section-tours" class="btn btn--white btn--animated">what do we do?</a> -->
+            </div>
+        </header>
+
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        About ES Group
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <!-- <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with it</h3> -->
+                        <p class="paragraph">
+                            Dr. Xue's group is investigating complex interactions in infrastructure-human-natural systems, and developing sustainable solutions to infrastructure, water, energy and nutrient challenges. We've developed system based approaches to evaluate sustainable and resilient water & waste infrastructure, to analyze environmental and human health impacts of food and biofuel supply chains, and to advance interdisciplinary tools for sustainability and resilience assessment.
+                        </p>
+                        <a href="#research" class="btn-text">Check our Research &rarr;</a>
+                        <br>
+                        <a href="publications.html" class="btn-text">Check our Publications! &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="./img/food-energy-water nexus.png" alt="" class="about-photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Research -->
+            <section class="section-features">
+                
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small ">Sustainable and Resilient Water Infrastructure</h3>
+                            <!-- <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            </p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small u-padding-bottom-small">Biofuel/Food Supply Chains</h3>
+                            <!-- <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            </p> -->
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-1-of-3">
+                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small u-padding-bottom-small">Nutrient Management</h3>
+                            <!-- <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-member" id="section-member">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary .u-margin-top-small" >
+                        Group Members
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="member">
+                        <figure class="member__shape">
+                            <img src="img/nat-8.jpg" alt="lead" class="member__img">
+                            <figcaption class="member__caption">Xiaobo Xue</figcaption>
+                        </figure>
+                        <div class="member__text">
+                            <h3 class="heading-tertiary--name">Xiaobo Xue</h3>
+                            <h3 class="heading-tertiary--position">PhD</h3>
+                                    
+                            <a class="heading-tertiary--email" href="mailto: xxue@albany.edu" >xxue@albany.edu</a>
+                            <h3 class="heading-tertirary--text">Assistant Professor</h3>
+                            <p class="heading-tertirary--text">Department of Environmental Health Sciences
+                                    School of Public Health
+                                            
+                                    State University of New York at Albany
+                                            
+                                    Room 155, George Education Center
+                                            
+                                    1 University Place
+                                            
+                                    Rensselaer, NY 12144  </p>
+                            <a href="#popup" class="btn btn-lead">More info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <ul>
+                                    <li>a</li>
+                                    <li>b</li>
+                                    <li>c</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+
+                <picture class="footer__logo">
+                    <!-- <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png">  -->
+                </picture>
+
+
+                
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Group SE</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Build by Zhangyu Ye for SE Group, great thanks to my memtor JONAS SCHMEDTMANN and his design for the website
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-member" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">abcabcabca</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">asdasd &ndash;gggggggg</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                        amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+                        sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+                        gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
+                        Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+                        vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+                        vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+                        euismod nisi porta.
+                    </p>
+                    <a href="#" class="btn btn--green">Portfoilo</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
