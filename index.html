@@ -7,6 +7,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="sass/main.css">
+        <link rel="stylesheet" href="css/icon_styles.css">
         <link rel="stylesheet" href="css/icon-font.css">
 
         <!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -36,9 +37,9 @@
         </div>
 
         <header class="header">
-            <div class="header__logo-box">
+            <!-- <div class="header__logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="header__logo">
-            </div>
+            </div> -->
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -77,11 +78,11 @@
             </section>
             
             <!-- Research -->
-            <section class="section-features">
+            <section class="section-features" id="research">
                 
                 <div class="row">
                     <div class="col-1-of-3">
-                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                        <div class="feature-box feature-cursor" onclick="document.location='research.html'">
                             <i class="feature-box__icon icon-basic-world"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small ">Sustainable and Resilient Water Infrastructure</h3>
                             <!-- <p class="feature-box__text">
@@ -91,7 +92,7 @@
                     </div>
 
                     <div class="col-1-of-3">
-                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                        <div class="feature-box feature-cursor" onclick="document.location='research.html'">
                             <i class="feature-box__icon icon-basic-compass"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small u-padding-bottom-small">Biofuel/Food Supply Chains</h3>
                             <!-- <p class="feature-box__text">
@@ -102,7 +103,7 @@
                     </div>
 
                     <div class="col-1-of-3">
-                        <div class="feature-box feature-cursor" onclick="document.location='new.html'">
+                        <div class="feature-box feature-cursor" onclick="document.location='research.html'">
                             <i class="feature-box__icon icon-basic-map"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small u-padding-bottom-small">Nutrient Management</h3>
                             <!-- <p class="feature-box__text">
@@ -127,11 +128,10 @@
                         </figure>
                         <div class="member__text">
                             <h3 class="heading-tertiary--name">Xiaobo Xue</h3>
-                            <h3 class="heading-tertiary--position">PhD</h3>
-                                    
-                            <a class="heading-tertiary--email" href="mailto: xxue@albany.edu" >xxue@albany.edu</a>
-                            <h3 class="heading-tertirary--text">Assistant Professor</h3>
-                            <p class="heading-tertirary--text">Department of Environmental Health Sciences
+                            <h3 class="heading-tertiary--degree">PhD</h3>
+                            <p class="heading-tertiary--email" align="right">xxue@albany.edu</p>
+                            <p class="heading-tertirary--position" align="right">Assistant Professor</p>
+                            <p class="heading-tertirary--text" align="right">Department of Environmental Health Sciences
                                     School of Public Health
                                             
                                     State University of New York at Albany
@@ -141,7 +141,7 @@
                                     1 University Place
                                             
                                     Rensselaer, NY 12144  </p>
-                            <a href="#popup" class="btn btn-lead">More info</a>
+                            <a href="#popup" class="btn btn--lead ">More info</a>
                         </div>
                     </div>
                 </div>
@@ -153,8 +153,6 @@
                                 <div class="card__picture card__picture--1">
                                     &nbsp;
                                 </div>
-                                
-
                             </div>
                             <div class="card__side card__side--back card__side--back-1">
                                 <ul>

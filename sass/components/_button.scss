@@ -6,7 +6,7 @@
         text-decoration: none;
         padding: 1.5rem 4rem;
         display: inline-block;
-        border-radius: 10rem;
+        border-radius: 2rem;
         transition: all .2s;
         position: relative;
         font-size: $default-font-size;
@@ -67,6 +67,13 @@
     &--animated {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
+    }
+    &--lead{
+        background-color: $color-primary;
+        color: $color-white;
+        font-size: 2rem !important;
+        margin-left: 26rem;
+        margin-top: 1rem;
     }
 }
 
